@@ -81,6 +81,7 @@ class CreateData extends Migrator
             'nickname' => 'Serati Ma',
             'status' => 1,
             'create_time' => time(),
+            'update_time' => time(),
         ]);
         $table->saveData();
 
@@ -99,6 +100,7 @@ class CreateData extends Migrator
             'nickname' => 'Xiao Di',
             'status' => 1,
             'create_time' => time(),
+             'update_time' => time(),
         ]);
         $table->saveData();
     }
